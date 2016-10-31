@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 import unittest
 
-class QuoraTest(unittest.TestCase):
+class NewTest(unittest.TestCase):
 
     def setUp(self):
         PROXYList = ["203.66.159.44:3128", "31.207.0.99:3128", "219.255.197.90:3128", "64.103.27.184:8080", "209.242.141.60:8080", "122.226.166.231:8080"]

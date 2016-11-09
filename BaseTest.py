@@ -35,7 +35,7 @@ class QuoraTest(unittest.TestCase):
             #driver.get(browserlink)
             removebuttonXpath = "//a[@class='remove br3']"
             #time.sleep(3)
-            signinbuttonXpath = "//div[@class='header_signin_with_search_bar action_button']"
+            signinbuttonXpath = "//div[@class='header_signvxcvcxvxcvin_with_search_bar action_button']"
             signinlinkXpath = "//a[text() = 'Sign In']"
             loginlinkXpath = "//a[text() = 'I Have a Quora Account']"
             loginFieldXpath = "//form/div[1]/div[1]/input"

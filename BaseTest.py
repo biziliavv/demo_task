@@ -108,15 +108,15 @@ class QuoraTest(unittest.TestCase):
                     seconds_list = [1200, 1220, 1230, 1240, 1250, 1245]
                     random.shuffle(seconds_list)
                     seconds = random.choice(seconds_list)
-                    time.sleep(seconds)
+                    time.sleep(5)
                     topmenuElement.click()
                     time.sleep(2)
                     logoutElement = driver.find_element_by_xpath(logoutXpath)
                     logoutElement.click()
                     time.sleep(3)
-                    removebuttonElement = driver.find_element_by_xpath(removebuttonXpath)
-                    removebuttonElement.click()
-                    time.sleep(6)
+ #                   removebuttonElement = driver.find_element_by_xpath(removebuttonXpath)
+ #                   removebuttonElement.click()
+ #                   time.sleep(6)
                     print emailvalue
 
 
